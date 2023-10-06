@@ -1,6 +1,6 @@
 ## PEA-m6A: an ensemble learning-based framework for predicting m<sup>6</sup>A modifications in plants
 
-<a href="https://hub.docker.com/r/malab/deepea" target="_blank"><img src="https://img.shields.io/badge/Docker_image-ready-red.svg" target="_blank"></a><a href="https://hub.docker.com/r/malab/deepea" target="_blank"><img src="https://img.shields.io/docker/pulls/malab/deepea"></a><a href="https://github.com/cma2015/deepEA" target="_blank"><img src="https://img.shields.io/badge/Source%20codes-support-blue"></a><a href="http://www.omicstudio.cloud:4006/static/test_data.zip" target="_blank"><img src="https://img.shields.io/badge/Test_data-support-blue.svg"></a>
+<a href="https://hub.docker.com/r/malab/peam6a" target="_blank"><img src="https://img.shields.io/badge/Docker_image-ready-red.svg" target="_blank"></a><a href="https://hub.docker.com/r/malab/peam6a" target="_blank"><img src="https://img.shields.io/docker/pulls/malab/peam6a"></a><img src="https://img.shields.io/badge/Source%20codes-support-blue"><img src="https://img.shields.io/badge/Test_data-support-blue.svg">
 
 ## Introduction
 
