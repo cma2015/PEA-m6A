@@ -10,7 +10,7 @@
 
 ## How to use PEA-m6A
 
-- Test data and tutorial of PEA-m6A are presented at https://github.com/cma2015/PEA-m6A.
+- Test data and tutorial of PEA-m6A are presented at https://github.com/cma2015/PEA-m6A/blob/main/User_Man.md.
 
 ## How to access help
 
