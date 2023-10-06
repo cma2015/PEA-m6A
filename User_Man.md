@@ -95,10 +95,10 @@ python PEA-m6A.py data_process
 
 ```python
 python PEA-m6A.py sample_extraction 
-						-s Ath 
-            -ad ../test_data 
-            -p ../test_data/Ath_peaks.bed 
-            -o ../output
+		-s Ath 
+		-ad ../test_data 
+		-p ../test_data/Ath_peaks.bed 
+		-o ../output
 ```
 
 ## PEA-m6A Feature Encoding
@@ -129,23 +129,23 @@ This module provides three encoding strategies (see following table for details)
 ```python
 ## one-hot encoding strategy
 python PEA-m6A.py features_encoding
-						-s Ath
-						-i ../test_data/Ath_test.fa
-    				-e onehot
-      			-o ../output
+		-s Ath
+		-i ../test_data/Ath_test.fa
+		-e onehot
+		-o ../output
         
 ## statistics-based encoding strategy
 python PEA-m6A.py features_encoding
-						-s Ath
-						-i ../test_data/Ath_test.fa
-    				-e statistics
-      			-o ../output
+		-s Ath
+		-i ../test_data/Ath_test.fa
+		-e statistics
+		-o ../output
 ## deep learning-dirven encoding strategy
 python PEA-m6A.py features_encoding
-						-s Ath
-						-i ../test_data/Ath_test.fa
-    				-e deeplearning
-      			-o ../output
+		-s Ath
+		-i ../test_data/Ath_test.fa
+		-e deeplearning
+		-o ../output
 ```
 
 ## PEA-m6A Model Development
@@ -177,17 +177,17 @@ This module provides two funcitons (see following table for details) .
 ```python
 ## train deep learnging model
 python PEA-m6A.py train
-						-i ../test_data
-						-m WeakRM
-    				-o ../output
-      			-cn test_model
+		-i ../test_data
+		-m WeakRM
+		-o ../output
+		-cn test_model
 ## train PEA-m6A model    
 python PEA-m6A.py train
-						-i ../test_data
-						-m PEAm6A
-						-matrix DL ST OT
-    				-o ../output
-      			-cn test_model
+		-i ../test_data
+		-m PEAm6A
+		-matrix DL ST OT
+		-o ../output
+		-cn test_model
 ```
 
 #### Model predict
@@ -206,10 +206,10 @@ python PEA-m6A.py train
 
 ```python
 python PEA-m6A.py predict
-						-i ../test_data
-						-m model_name_trained
-						-matrix DL ST OT
-    				-o ../output
+		-i ../test_data
+		-m model_name_trained
+		-matrix DL ST OT
+		-o ../output
 ```
 
 ## PEA-m6A Model Assessment
@@ -233,11 +233,11 @@ This module provides SHAP summary plot and SHAP Dependence Plot (see following t
 
 ```python
 python PEA-m6A.py model_analysis
-						-i ../test_data
-						-m model_name_saved
-						-plot summary
-						-on sumary_test
-    				-o ../output
+		-i ../test_data
+		-m model_name_saved
+		-plot summary
+		-on sumary_test
+		-o ../output
 ```
 
 #### SHAP Dependence plot
@@ -259,12 +259,12 @@ python PEA-m6A.py model_analysis
 
 ```python
 python PEA-m6A.py model_analysis
-						-i ../test_data
-						-m model_name_saved
-						-plot dependence
-						-on dependence_test
-						-f1 features1_name
-						-f2 faetures2_name
-    				-o ../output
+		-i ../test_data
+		-m model_name_saved
+		-plot dependence
+		-on dependence_test
+		-f1 features1_name
+		-f2 faetures2_name
+		-o ../output
 ```
 
