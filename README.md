@@ -14,7 +14,7 @@
 
 ## How to access help
 
-* Comments/suggestions/bugs/issues are welcome reported [here](https://github.com/cma2015/PEA-m6A/issues) or contact: Minggui Song smg@nwafu.edu.cn or Chuang Ma chuangma2006@gmail.com
+* Comments/suggestions/bugs/issues are welcome reported [here](https://github.com/cma2015/PEA-m6A/issues) or contact: Minggui Song smg@nwafu.edu.cn , Jiawen Zhao zhaojiawen0131@gmail.com or Chuang Ma chuangma2006@gmail.com
 
 ## Change log
 
